@@ -40,4 +40,20 @@ if (bmi < 18.5) {
     category = "Obesity";
 }
 
-console.log(`Your BMI is ${bmi} and you have ${category}.`);
+// console.log(`Your BMI is ${bmi} and you have ${category}.`);
+
+// Find the largest of three numbers.
+const a = 5;
+const b = 5;
+const c = 6;
+let largest;
+
+if(a >= b && a >= c) {
+    largest = a;
+} else if(b >=a && b >= c){
+    largest = b;
+} else{
+    largest = c;
+}
+
+console.log(`Largest: ${largest}`)
