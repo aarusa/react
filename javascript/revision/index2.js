@@ -56,4 +56,10 @@ if(a >= b && a >= c) {
     largest = c;
 }
 
-console.log(`Largest: ${largest}`)
+// console.log(`Largest: ${largest}`)
+
+// Count vowels in a string
+const countVowels = str => Array.from(str.toLowerCase()).filter(letter => 'aeiou'.includes(letter)).length;
+
+
+console.log(countVowels("A hippopotamus"));
