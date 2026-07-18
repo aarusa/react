@@ -15,15 +15,18 @@
         function Header() {
             return (
                 <header>
-                    <h1>App Header</h1>
+                    <h2>App Header</h2>
                 </header>
             );
         }
         function App() {
+            const name = 'John';
+            const member = true;
             return (
                 <>
                     <Header />
-                    <h2>Hello, React!</h2>
+                    <h1>Hello, {name}</h1>
+                    {member ? <p>Welcome back!</p> : <p>Join us</p>}
                 </>
             );
         }
