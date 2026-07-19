@@ -1,11 +1,11 @@
 import Rating from "./components/Rating";
-import Counter from "./components/Counter";
 
 const App = () => {
   return ( 
     <div>
-      <Rating />
-      <Counter />
+      <Rating heading = 'How do you feel about React?' color="red" feedback= {[
+        'Hate it', 'Dislike it', 'Meh', 'Like it', 'Love it'
+      ]}/>
     </div>
    );
 }
